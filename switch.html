@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <title>Aula 23 - Switch</title>
+   <script>
+        var nomePessoa = "Joaquim"
+
+        // estrutura de controle, usada para comparar as informações
+        switch (nomePessoa) {
+            case "Flavio": // caso tal elemento, ele executa uma ordem especifica
+                console.log("O nome é Flavio");
+                break; // o break serve para encerrar a comparação após achar oque está buscando
+            case "Maria":
+                console.log("O nome é Maria");
+                break;
+            case "Joaquim":
+                console.log("O nome é Joaquim");
+                break;
+            case "Fernando":
+                console.log("O nome é Fernando");
+                break;
+            default: // como se fosse um "else", serve como o o também de todos case (caso nenhum se encaixe cai aqui)
+                console.log("Não sei o nome")
+                break;
+        }
+
+        console.log(window.document); // exibe toda
+   </script>
+</head>
+<body>
+   
+</body>
+</html>       
