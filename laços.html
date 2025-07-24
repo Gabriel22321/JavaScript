@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <title>Aula 21 - Laços de Repetição</title>
+   <script>
+         listaCandidatos = ["Joaquim", "Joseph", "Amanda", "Camile"];
+        
+         posicao = 0;
+
+         while(listaCandidatos.length > posicao)
+         { 
+            console.log(listaCandidatos[posicao]);
+            posicao ++;
+         }
+         
+         for (var item =0; item < listaCandidatos.length; item++)
+         {
+            if (item == 1) 
+                  {
+                        continue; // pula um elemento especifico de dentro do "FOR"
+                  }
+
+            if (item == 2)
+                  {
+                        break; // encerra a executação total no elemento especifico
+                  } 
+            console.log("Candidato: "+listaCandidatos[item]);
+         }
+   </script>
+</head>
+<body>
+   
+</body>
+</html>       
